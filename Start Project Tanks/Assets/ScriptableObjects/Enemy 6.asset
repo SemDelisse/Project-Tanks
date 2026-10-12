@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7261ebcbc7b604ab3705280a18a4fd, type: 3}
+  m_Name: Enemy 6
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: Green
+  movementType: 0
+  moveSpeed: 0
+  rotationSpeed: 50
+  reverseAngle: 120
+  rotateOnlyAngle: 15
+  movementRange: 5
+  turretRotationSpeed: 360
+  aimAngle: 5
+  shootCooldown: 1
+  maxBullets: 2
+  bulletSpeed: 3
+  totalRicochets: 2
+  maxMines: 0
+  invisible: 0
+  notes: 'Green: Stationary, fast fire rate, fast bullets, 2 bullets max, 2 ricochets,
+    the bullets he shoots predict the position the player will be when the bullet
+    reaches his position.'

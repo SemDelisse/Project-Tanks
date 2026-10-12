@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7261ebcbc7b604ab3705280a18a4fd, type: 3}
+  m_Name: Enemy 2
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: Ash
+  canMove: 1
+  moveSpeed: 2
+  rotationSpeed: 120
+  reverseAngle: 120
+  rotateOnlyAngle: 15
+  attackRange: 8
+  turretRotationSpeed: 360
+  aimAngle: 5
+  shootCooldown: 1
+  maxBullets: 1
+  bulletSpeed: 3
+  totalRicochets: 1
+  maxMines: 0
+  invisible: 0
+  notes: 'Ash: Slow movement, defensive behaviour, slow fire rate, 1 bullet max,
+    1 ricochet.'

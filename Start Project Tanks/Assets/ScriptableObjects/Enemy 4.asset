@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7261ebcbc7b604ab3705280a18a4fd, type: 3}
+  m_Name: Enemy 4
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: Yellow
+  movementType: 2
+  moveSpeed: 2
+  rotationSpeed: 50
+  reverseAngle: 120
+  rotateOnlyAngle: 15
+  movementRange: 5
+  turretRotationSpeed: 360
+  aimAngle: 5
+  shootCooldown: 1
+  maxBullets: 1
+  bulletSpeed: 2
+  totalRicochets: 1
+  maxMines: 4
+  invisible: 0
+  notes: 'Yellow: Normal movement, random movement, slow fire rate, 1 bullet max,
+    1 ricochet, can place up to 4 mines.'
